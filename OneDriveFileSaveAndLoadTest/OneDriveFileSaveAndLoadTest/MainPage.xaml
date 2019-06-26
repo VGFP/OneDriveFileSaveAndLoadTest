@@ -4,11 +4,9 @@
              xmlns:local="clr-namespace:OneDriveFileSaveAndLoadTest"
              x:Class="OneDriveFileSaveAndLoadTest.MainPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="SignIn" Text="Sign In" TextColor="Black" BackgroundColor="Azure" Clicked="SignIn_Clicked"/>
     </StackLayout>
 
 </ContentPage>

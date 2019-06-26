@@ -13,5 +13,10 @@ namespace OneDriveFileSaveAndLoadTest
         {
             InitializeComponent();
         }
+
+        private void SignIn_Clicked(object sender, EventArgs e)
+        {
+            (App.Current.MainPage as MasterDetailPage).IsPresented = true;
+        }
     }
 }
